@@ -1,0 +1,4 @@
+.env
+config/conexion_db.py
+/venv
+

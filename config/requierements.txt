@@ -1,0 +1,13 @@
+pandas
+matplotlib
+seaborn
+sqlalchemy
+numpy
+jupyter
+psycopg2
+
+
+postgres 
+pgAdmin 
+visual estudio code 
+git 
