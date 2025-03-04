@@ -8,10 +8,10 @@ def conectar_db():
     try:
         conn = psycopg2.connect(
             dbname="CrashTraffic",
-            user="Aqui_Tu_usuario",
-            password="Aqui_Tu_contraseña",
-            host="Aqui_Tu_host",
-            port="Aqui_Tu_puerto",
+            user="postgres",
+            password="root",
+            host="localhost",
+            port="5432",
             options="-c client_encoding=UTF8"
         )
         conn.set_client_encoding('UTF8')  # Asegurar que la codificación sea UTF-8

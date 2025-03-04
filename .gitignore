@@ -1,4 +1,5 @@
 .env
-
+config/conexion_db.py
 /venv
-
+config/__init__.py
+config/__pycache__.py
